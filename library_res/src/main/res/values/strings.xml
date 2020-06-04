@@ -1,0 +1,95 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="TOTAL_ASSET">fonts/TOTAL_ASSET.ttf</string>
+    <string name="FUTURAMEDIUMBT">fonts/FUTURAMEDIUMBT.ttf</string>
+    <string name="CENTURY_GOTHIC_BOLD">fonts/CENTURY_GOTHIC_BOLD.ttf</string>
+    <string name="module_login_password_hint" tools:ignore="MissingTranslation">请输入密码</string>
+    <string name="copy_success">复制成功</string>
+    <string name="copy">复制</string>
+    <string name="title_warning_text" tools:ignore="MissingTranslation">注意</string>
+    <string name="confirm_text" tools:ignore="MissingTranslation">确认</string>
+    <string name="cancel_text" tools:ignore="MissingTranslation">取消</string>
+    <string name="logout_warning_text" tools:ignore="MissingTranslation">退出账号前，请确保您已保存私钥</string>
+    <string name="asset_private_key_detail" tools:ignore="ResourceName">资金权限(active) 活跃权限用来设定拥有花费本账户资金权限的账户名或公钥</string>
+    <string name="account_private_key_detail" tools:ignore="ResourceName">账户权限(owner) 账户权限设定谁可以控制本账户。控制人（账户名或公钥）可修改账户相关的各种设置，包括权限设置。</string>
+    <string name="private_key_function_tips">私钥用于恢复钱包或重置钱包密码，长按复制，并将它存放在只有您知道的安全地方</string>
+    <string name="module_asset_coin_type_test">(测试)</string>
+    <string name="deal_detail">交易详情</string>
+    <string name="next_text">下一步</string>
+    <string name="account_not_found">账户不存在</string>
+    <string name="insufficient_balance">余额不足</string>
+    <string name="module_mine_node_connect_failed">节点连接失败</string>
+    <string name="module_mine_node_connect_success">切换成功</string>
+    <string name="module_mine_net_test_text">测试网</string>
+    <string name="module_mine_net_main_text">主网</string>
+    <string name="module_asset_fragment_asset_login_text">立即登录/创建账户</string>
+    <string name="node_data_load_failed">节点信息加载失败</string>
+    <string name="module_asset_try_after_login">请登录/注册后再试</string>
+    <string name="module_asset_operate_fee_not_much">手续费不足！</string>
+    <string name="module_login_account_creation_required">创建账户需符合要求</string>
+    <string name="module_login_creating_free_account_required">账户需满足 ·含有数字</string>
+    <string name="module_login_create_no_authority">没有权限</string>
+    <string name="module_login_create_any_more_accounts_today">今日你不能再创建账户</string>
+    <string name="module_login_no_free_account_today">今日已经没有免费账户</string>
+    <string name="module_login_server_error">服务器错误</string>
+    <string name="module_asset_private_key_author_failed">owner key不能进行转账，请导入active key</string>
+    <string name="module_asset_private_key_author_failed_owner">active key权限不支持该操作，请导入owner key</string>
+    <string name="module_login_key_format_error">私钥无效，请重新输入</string>
+    <string name="module_login_private_key_empty">请输入私钥</string>
+    <string name="reset_password_title">重置密码</string>
+    <string name="module_login_private_key_hint">请输入明文私钥</string>
+    <string name="module_login_password_confirm_failure">前后密码设置不一致，请重新设置</string>
+    <string name="register_needs_title">基础账户需任意满足以下条件之一：</string>
+    <string name="register_needs_text_one">1. 含有数字0～9</string>
+    <string name="register_needs_text_two">2. 含有特殊字符-</string>
+    <string name="register_needs_text_three">3. 不含有a，e，i，o，u，y字母</string>
+    <string name="module_mine_coin_cny" tools:ignore="MissingTranslation">CNY</string>
+    <string name="module_mine_coin_usd">USD</string>
+    <string name="fragment_mine_coin_type_select">币种选择</string>
+    <string name="module_mine_frozen_text">冻结 </string>
+    <string name="module_mine_old_password">当前密码</string>
+    <string name="module_asset_total_assets">总资产</string>
+    <string name="module_mine_new_password">新密码</string>
+    <string name="module_mine_reset_confirm_password">确认密码</string>
+    <string name="module_mine_input_old_password">请输入当前密码</string>
+    <string name="module_mine_input_new_password">请输入新密码</string>
+    <string name="module_mine_confirm_password">请再次确认新密码</string>
+    <string name="module_mine_reset_failed">重置失败</string>
+    <string name="module_login_private_key_no_account_info">该私钥没有对应的账户信息</string>
+    <string name="invoke_login_title">请求登录</string>
+    <string name="invoked_login_account">授权账号：</string>
+    <string name="invoke_login_switch">切换</string>
+    <string name="request_login_desc">请求执行操作：</string>
+    <string name="invoke_login_action">登录</string>
+    <string name="invoke_login_prompt">登陆操作仅进行身份确认，此操作不会传输私钥</string>
+    <string name="invoke_login_confirm">确认登录</string>
+    <string name="invoke_login_cancel">取消</string>
+    <string name="invoke_transfer_from">付款账号</string>
+    <string name="invoke_transfer_to">收款账号</string>
+    <string name="invoke_transfer_order_id">订单编号</string>
+    <string name="invoke_transfer_memo">Memo</string>
+    <string name="invoke_transfer_Desc">详情：</string>
+    <string name="invoke_transfer_confirm">确认支付</string>
+    <string name="op_expirted">操作已过时</string>
+    <string name="invoke_contract_title">执行合约</string>
+    <string name="invoke_contract_detail">查看详情 ></string>
+    <string name="invoke_contract_confirm">确认执行</string>
+    <string name="invoke_contract_defalut">合约</string>
+    <string name="module_asset_block_head_address">https://www.cocosabc.com/blocks/block/</string>
+    <string name="refresh_text">刷新</string>
+    <string name="copy_url_text">复制URL</string>
+    <string name="share_text">分享</string>
+    <string name="browser_text">浏览器打开</string>
+    <string name="contract_detail">合约详情</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_cancel">分享取消了</string>
+    <string name="price_get_error">获取cocos价格失败</string>
+    <string name="web_not_open">网页无法打开</string>
+    <string name="delete_search_title">确定要删除该条历史记录？</string>
+    <string name="history_title">浏览历史记录</string>
+    <string name="clear_history">清除全部历史记录</string>
+    <string name="module_login_password_illegal" tools:ignore="MissingTranslation">密码设置不符合规则</string>
+    <string name="register_pwd_title">密码要求：</string>
+    <string name="module_login_password_rule">12位以上，包含数字、大小写字母和!@#$%^&amp;*.特殊符号</string>
+    <string name="invoke_signmessage_title">消息签名</string>
+</resources>

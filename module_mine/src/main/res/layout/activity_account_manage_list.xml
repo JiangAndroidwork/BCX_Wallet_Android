@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+
+    <data>
+
+        <import type="me.tatarka.bindingcollectionadapter2.LayoutManagers" />
+
+        <import type="android.support.v7.widget.LinearLayoutManager" />
+
+        <import type="com.cocos.library_base.binding.viewadapter.recyclerview.LineManagers" />
+
+        <import type="com.cocos.module_mine.account_manage.AccountManagerListViewModel" />
+
+        <variable
+            name="viewModel"
+            type="AccountManagerListViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingStart="@dimen/dp_11"
+                android:paddingRight="@dimen/dp_16"
+                binding:onClickCommand="@{viewModel.backOnClickCommand}">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_16"
+                    android:layout_height="@dimen/dp_18"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/arrow_left_black" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/fragment_mine_account_manage_title"
+                android:textColor="@color/color_262A33"
+                android:textSize="@dimen/sp_18"
+                android:typeface="@{@string/TOTAL_ASSET}" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_42"
+                android:layout_marginRight="@dimen/dp_16"
+                android:background="@drawable/fragment_asset_login_btn"
+                android:gravity="center"
+                android:text="@={viewModel.loginText}"
+                android:textColor="@color/color_4868DC"
+                android:textSize="@dimen/sp_16"
+                android:typeface="@{@string/TOTAL_ASSET}"
+                android:visibility="@{viewModel.LoginViewVisible}"
+                binding:onClickCommand="@{viewModel.loginViewClick}" />
+
+            <android.support.v7.widget.RecyclerView
+                style="@style/CommonList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_20"
+                android:fastScrollEnabled="false"
+                android:overScrollMode="never"
+                android:visibility="@{viewModel.recycleViewVisible}"
+                binding:adapter="@{viewModel.adapter}"
+                binding:itemBinding="@{viewModel.itemBinding}"
+                binding:items="@{viewModel.observableList}"
+                binding:layoutManager="@{LayoutManagers.linear(LinearLayoutManager.VERTICAL,Boolean.FALSE)}" />
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

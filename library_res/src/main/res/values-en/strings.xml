@@ -1,0 +1,96 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="TOTAL_ASSET">fonts/TOTAL_ASSET.ttf</string>
+    <string name="FUTURAMEDIUMBT">fonts/FUTURAMEDIUMBT.ttf</string>
+    <string name="CENTURY_GOTHIC_BOLD">fonts/CENTURY_GOTHIC_BOLD.ttf</string>
+    <string name="module_login_password_hint" tools:ignore="MissingTranslation">Enter passcode</string>
+    <string name="copy_success">Copied</string>
+    <string name="copy">Copy</string>
+    <string name="logout_warning_text">Please make sure to have saved your private key before logging out</string>
+    <string name="title_warning_text" tools:ignore="ResourceName">Take Attention</string>
+    <string name="module_login_password_illegal" tools:ignore="MissingTranslation">Passcode does not meet requirements</string>
+    <string name="confirm_text" tools:ignore="MissingTranslation">Confirm</string>
+    <string name="cancel_text" tools:ignore="MissingTranslation">Cancel</string>
+    <string name="asset_private_key_detail" tools:ignore="ResourceName,StringEscaping">The “active” authority is used to set the account name or public key that has the right to spend money of the account.</string>
+    <string name="account_private_key_detail" tools:ignore="ResourceName,StringEscaping">The “owner” authority is used to set controller of the account. The controller(account or public key) has the right to change issues related to the account, including authorization.</string>
+    <string name="private_key_function_tips">Private key is for recover wallet or reset wallet password, long press to copy, keep your private key safe</string>
+    <string name="module_asset_coin_type_test">(TEST)</string>
+    <string name="deal_detail">Deal Detail</string>
+    <string name="next_text">Next</string>
+    <string name="module_asset_total_assets">Total Assets</string>
+    <string name="account_not_found">Account not found</string>
+    <string name="insufficient_balance">Insufficient balance</string>
+    <string name="module_mine_node_connect_failed">Node connect failed</string>
+    <string name="module_mine_node_connect_success">Connect success</string>
+    <string name="module_mine_net_test_text">Test Net</string>
+    <string name="module_mine_net_main_text">Main Net</string>
+    <string name="module_asset_fragment_asset_login_text">Login/Register</string>
+    <string name="node_data_load_failed">Nodes load failed!</string>
+    <string name="module_asset_try_after_login">Try again after Login/Register</string>
+    <string name="module_asset_operate_fee_not_much">Insufficient Balance！</string>
+    <string name="module_login_account_creation_required">Account creation required</string>
+    <string name="module_login_creating_free_account_required">Creating  free account required</string>
+    <string name="module_login_create_no_authority">No authority</string>
+    <string name="module_login_create_any_more_accounts_today">You cannot create any more accounts today</string>
+    <string name="module_login_no_free_account_today">No free account today</string>
+    <string name="module_login_server_error">Server error</string>
+    <string name="module_asset_private_key_author_failed">Owner key cannot transfer,Please import active key</string>
+    <string name="module_asset_private_key_author_failed_owner">Active key not support this operate,Please import owner key</string>
+    <string name="module_login_key_format_error">Invalid key, enter again</string>
+    <string name="module_login_private_key_empty">Please enter private key</string>
+    <string name="reset_password_title">Reset Password</string>
+    <string name="module_login_private_key_hint">Enter cleartext private key</string>
+    <string name="module_login_password_confirm_failure">Passwords do not match, please reset</string>
+    <string name="register_needs_title">When the account name meets one of the following conditions, it is Basic Name：</string>
+    <string name="register_needs_text_one">1. Contains numbers 0–9</string>
+    <string name="register_needs_text_two">2. Contains special characters-</string>
+    <string name="register_needs_text_three">3. Without a, e, i, o, u, y</string>
+    <string name="module_mine_coin_cny">CNY</string>
+    <string name="module_mine_coin_usd">USD</string>
+    <string name="fragment_mine_coin_type_select">Currency Unit</string>
+    <string name="module_mine_frozen_text">Locked </string>
+    <string name="module_mine_old_password">Old one</string>
+    <string name="module_mine_new_password">Reset</string>
+    <string name="module_mine_reset_confirm_password">Repeat</string>
+    <string name="module_mine_input_old_password">Enter current passcode</string>
+    <string name="module_mine_input_new_password">Enter new passcode</string>
+    <string name="module_mine_confirm_password">Enter new passcode again</string>
+    <string name="module_mine_reset_failed">Reset failed!</string>
+    <string name="module_login_private_key_no_account_info">The private key has no account info</string>
+    <string name="invoke_login_title">Request Login</string>
+    <string name="invoked_login_account">Authorized account:</string>
+    <string name="invoke_login_switch">Switch</string>
+    <string name="request_login_desc">Request action:</string>
+    <string name="invoke_login_action">login</string>
+    <string name="invoke_login_prompt">The login operation only confirms the identity, this operation does not transmit the private key</string>
+    <string name="invoke_login_confirm">Confirm login</string>
+    <string name="invoke_login_cancel">Cancel</string>
+    <string name="invoke_transfer_from">Payment account</string>
+    <string name="invoke_transfer_to">Deposit Account</string>
+    <string name="invoke_transfer_order_id">Order number</string>
+    <string name="invoke_transfer_memo">Memo</string>
+    <string name="invoke_transfer_Desc">Details:</string>
+    <string name="invoke_transfer_confirm">Confirm payment</string>
+    <string name="op_expirted">Operation time out</string>
+    <string name="invoke_contract_title">Execute contract</string>
+    <string name="invoke_contract_detail">Details ></string>
+    <string name="invoke_contract_confirm">Confirm execution</string>
+    <string name="invoke_contract_defalut">Contract</string>
+    <string name="module_asset_block_head_address">https://www.cocosabc.com/blocks/block/</string>
+    <string name="refresh_text">Refresh</string>
+    <string name="copy_url_text">Copy URL</string>
+    <string name="share_text">Share</string>
+    <string name="browser_text">Open in browser</string>
+    <string name="contract_detail">Details</string>
+    <string name="share_success">share success</string>
+    <string name="share_failed">share failed</string>
+    <string name="share_cancel">share canceled</string>
+    <string name="price_get_error">fail to get cocos price</string>
+    <string name="web_not_open">Not found</string>
+    <string name="delete_search_title">Sure to delete？</string>
+    <string name="history_title">History</string>
+    <string name="clear_history">Clear All</string>
+    <string name="register_pwd_title">Passcode Rule：</string>
+    <string name="module_login_password_rule">At least 12 digits,must contain numbers, uppercase and lowercase letters, and special symbols .!@#$%^&amp;*</string>
+    <string name="invoke_signmessage_title">Sign Info</string>
+    <string name="module_mine_hint_money">10% commission to be paid</string>
+</resources>

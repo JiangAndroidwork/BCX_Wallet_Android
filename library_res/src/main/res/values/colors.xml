@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_4868DC">#4868DC</color>
+    <color name="color_262A33">#262A33</color>
+    <color name="color_A5A9B1">#A5A9B1</color>
+    <color name="white">#ffffffff</color>
+    <color name="drop_pop_menu_bg_color">#a0000000</color>
+    <color name="color_F5F6FA">#F5F6FA</color>
+    <color name="color_E0E0E0">#E0E0E0</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_F7F7F7">#F7F7F7</color>
+    <color name="color_9B9B9B">#9B9B9B</color>
+    <color name="color_ff007aff">#ff007aff</color>
+    <color name="color_F3F4F6">#F3F4F6</color>
+    <color name="color_E8EBF1">#E8EBF1</color>
+    <color name="color_EFF0F1">#EFF0F1</color>
+    <color name="color_606162">#606162</color>
+</resources>

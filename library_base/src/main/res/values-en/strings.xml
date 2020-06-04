@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation" tools:ignore="MissingTranslation">An unexpected error occurred.\n Sorry for the inconvenience.</string>
+    <string name="customactivityoncrash_error_activity_restart_app" tools:ignore="MissingTranslation">Restart</string>
+    <string name="customactivityoncrash_error_activity_close_app" tools:ignore="MissingTranslation">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details" tools:ignore="MissingTranslation">Error Logs</string>
+    <string name="customactivityoncrash_error_activity_error_details_title" tools:ignore="MissingTranslation">Error Detail</string>
+    <string name="customactivityoncrash_error_activity_error_details_close" tools:ignore="MissingTranslation">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy" tools:ignore="MissingTranslation">Copy</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied" tools:ignore="MissingTranslation">Copy</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label" tools:ignore="MissingTranslation">Error Info</string>
+    <string name="module_asset_transfer_title">Send</string>
+    <string name="module_asset_transfer_deal_detail">Transaction Details</string>
+    <string name="module_asset_transfer_order_info">Order Information</string>
+    <string name="module_asset_transfer_account_name">From</string>
+    <string name="module_asset_receivable_account_name">To</string>
+    <string name="module_asset_transfer_amount_info">Amount</string>
+    <string name="module_asset_transfer_memo_info">Memo</string>
+    <string name="module_asset_transfer_pay_confirm_btn">Confirm Payment</string>
+    <string name="module_asset_receivablesAccountName_empty">Address empty!</string>
+    <string name="module_asset_transfer_amount_empty">Please enter the amount to be transferred</string>
+    <string name="module_asset_transfer_account_can_not_yourself">Transfer account can not be self</string>
+    <string name="module_asset_wrong_password">Wrong password</string>
+    <string name="module_asset_account_not_found">Account does not exist</string>
+    <string name="module_asset_transfer_success">Transfer completed</string>
+    <string name="language_cn">中文</string>
+    <string name="language_en">English</string>
+    <string name="net_work_failed">Network busy,  please check your network connection!</string>
+    <string name="title_verify_password_text">Verify Key</string>
+    <string name="verify_password_hint">Account key/temporary key</string>
+    <string name="web_load_failed">The page was taken away by aliens!</string>
+    <string name="web_reload">Refresh</string>
+    <string name="loading">Loading</string>
+    <string name="update_btn_text">Update Now</string>
+    <string name="cancel_update_btn_text">Cancel</string>
+    <string name="update_title">New Version</string>
+    <string name="package_not_exist">Installation package does not exist</string>
+    <string name="requests_permissions_title">Requests for permissions</string>
+    <string name="unknown_source_request_tips">Installation applications need to open the installation of unknown source application permissions, please go to the settings to open permissions!</string>
+    <string name="to_setting">Setting</string>
+    <string name="module_asset_downloading">Download…</string>
+    <string name="module_asset_download_failed">download failed!</string>
+    <string name="operate_failed">operate failed</string>
+    <string name="secret_free_tip">No More Input Before Exit DApp</string>
+    <string name="not_upgrade_text">Not Updated</string>
+    <string name="warm_prompt">Tips:</string>
+    <string name="invoke_transfer_title">Order payment</string>
+    <string name="transferAccountName_empty">Payer cannot be empty</string>
+    <string name="account_empty">Please log in or create an account first</string>
+    <string name="author_account_not_exist">Authorized account doesn‘t exist, please re-authorize</string>
+    <string name="sign_info">Sign content：</string>
+</resources>

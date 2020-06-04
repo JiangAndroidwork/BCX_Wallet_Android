@@ -1,0 +1,148 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+    <string name="fragment_mine_title" tools:ignore="ResourceName">我的</string>
+    <string name="fragment_mine_asset_overview" tools:ignore="ResourceName">资产总览</string>
+    <string name="fragment_mine_about_us" tools:ignore="ResourceName">关于我们</string>
+    <string name="fragment_mine_contact" tools:ignore="ResourceName">联系人</string>
+    <string name="fragment_mine_wallet_manage" tools:ignore="ResourceName">钱包管理</string>
+    <string name="asset_text" tools:ignore="ResourceName">总资产(¥)</string>
+    <string name="fragment_mine_account_manage_modify_password" tools:ignore="ResourceName">修改密码</string>
+    <string name="fragment_mine_account_manage_export_privatekey" tools:ignore="ResourceName">导出私钥</string>
+    <string name="module_mine_btn_login_out">退出账号</string>
+    <string name="module_mine_modify_password_current">当前密码</string>
+    <string name="module_mine_modify_password_current_hint">请输入当前密码</string>
+    <string name="module_mine_modify_password_illegal">密码设置不符合规则，请重新输入</string>
+    <string name="module_mine_modify_password_new">新密码</string>
+    <string name="module_mine_modify_password_new_hint">请输入新密码</string>
+    <string name="module_mine_modify_password_confirm">确认密码</string>
+    <string name="module_mine_modify_password_confirm_hint">确认密码</string>
+    <string name="module_mine_modify_password_done_btn">完成</string>
+    <string name="module_mine_modify_password_empty">请输入密码</string>
+    <string name="module_mine_modify_password_confirm_failure" tools:ignore="MissingTranslation">密码前后输入不一致，请重新输入</string>
+    <string name="fragment_mine_multi_language" tools:ignore="ResourceName">多语言</string>
+    <string name="module_mine_cancel_text">取消</string>
+    <string name="module_mine_account_manage_asset_public_key">资产公钥</string>
+    <string name="module_mine_account_manage_account_public_key">账户公钥</string>
+    <string name="module_mine_export_key_title">导出私钥</string>
+    <string name="asset_private_key_text" tools:ignore="ResourceName">资产私钥</string>
+    <string name="copy_asset_private_key" tools:ignore="ResourceName">复制资产私钥</string>
+    <string name="copy_account_private_key" tools:ignore="ResourceName">复制账户私钥</string>
+    <string name="account_private_key_text" tools:ignore="ResourceName">账户私钥</string>
+
+    <!--about us-->
+    <string name="fragment_mine_about_us_title" tools:ignore="ResourceName">关于COCOS钱包</string>
+    <string name="fragment_mine_about_us_use_protocol" tools:ignore="ResourceName">服务条款</string>
+    <string name="fragment_mine_about_us_privacy_protocol" tools:ignore="ResourceName">隐私协议</string>
+    <string name="fragment_mine_about_us_version_log" tools:ignore="ResourceName">版本日志</string>
+    <string name="fragment_mine_about_us_join_community" tools:ignore="ResourceName">加入社群</string>
+    <string name="fragment_mine_about_us_recommend_friends" tools:ignore="ResourceName">推荐给朋友</string>
+    <string name="module_mine_current_version">当前版本  V</string>
+    <string name="fragment_mine_about_us_join_community_title" tools:ignore="ResourceName">加入社群</string>
+    <string name="fragment_mine_official_wechat" tools:ignore="ResourceName">官方微信号</string>
+    <string name="fragment_mine_official_wechat_account" tools:ignore="ResourceName">微信公众号</string>
+    <string name="fragment_mine_discord" tools:ignore="ResourceName">Discord</string>
+    <string name="fragment_mine_telegram" tools:ignore="ResourceName">Telegram</string>
+    <string name="fragment_mine_about_us_join_community_waiting_join">等你来撩～</string>
+    <string name="fragment_mine_about_us_privacy_policy_url">file:///android_asset/PRIVACY POLICY.html</string>
+    <string name="fragment_mine_about_us_terms_of_service_url">file:///android_asset/Terms of Service.html</string>
+    <string name="fragment_mine_about_us_version_log_url">file:///android_asset/VersionLog.html</string>
+
+
+    <string name="module_mine_asset_overview_digital_assets">数字资产</string>
+    <string name="module_mine_asset_overview_prop_assets">非同质资产</string>
+    <string name="module_mine_contact_title" tools:ignore="ExtraTranslation,ResourceName">联系人</string>
+    <string name="module_mine_complish" tools:ignore="ExtraTranslation,ResourceName">完成</string>
+    <string name="module_mine_contact_name" tools:ignore="ExtraTranslation,ResourceName">名称</string>
+    <string name="module_mine_contact_memo" tools:ignore="ExtraTranslation,ResourceName">备注</string>
+    <string name="module_mine_contact_account_name" tools:ignore="ExtraTranslation,ResourceName">账户名称</string>
+    <string name="module_mine_contact_delete" tools:ignore="ExtraTranslation,ResourceName">删除</string>
+    <string name="module_mine_contact_delete_success" tools:ignore="ExtraTranslation,ResourceName">删除成功</string>
+    <string name="module_mine_contact_add_manully">手动添加</string>
+    <string name="module_mine_contact_scan_add" tools:ignore="MissingTranslation">扫一扫</string>
+    <string name="module_mine_system_setting">系统设置</string>
+    <string name="fragment_mine_net_setting" tools:ignore="MissingTranslation,ResourceName">网络设置</string>
+    <string name="module_mine_modify_passcode_success">密码修改成功</string>
+    <string name="module_mine_contact_address">请输入钱包地址</string>
+    <string name="module_mine_contact_wallet_address">钱包地址</string>
+    <string name="module_mine_contact_memo_hint">请输入备注</string>
+    <string name="module_mine_contact_name_hint">请输入联系人名称</string>
+    <string name="current_account">当前钱包</string>
+    <string name="fragment_mine_account_manage_title">钱包管理</string>
+    <string name="module_mine_prop_asset_id">NH资产ID</string>
+    <string name="module_mine_prop_asset_word_view">世界观</string>
+    <string name="module_mine_prop_asset_asset_qualifier">通行资产</string>
+    <string name="custom">自定义</string>
+    <string name="module_mine_custom_node">自定义节点</string>
+    <string name="module_mine_custom_node_name">Node:</string>
+    <string name="module_mine_custom_chain_id">ChainId:</string>
+    <string name="module_mine_custom_faucet_url">FaucetUrl:</string>
+    <string name="module_mine_custom_asset">CoreAsset:</string>
+    <string name="module_mine_custom_name">Name:</string>
+    <string name="module_mine_custom_type">Type:</string>
+
+    <string name="module_mine_node_url_hint" tools:ignore="ExtraTranslation">请输入Node</string>
+    <string name="module_mine_custom_chain_id_hint">请输入ChainId</string>
+    <string name="module_mine_custom_faucet_url_hint">请输入FaucetUrl</string>
+    <string name="module_mine_custom_core_asset_hint">请输入CoreAsset</string>
+    <string name="module_mine_custom_node_name_hint">请输入Name</string>
+    <string name="module_mine_discord_ling_url">https://discordapp.com/invite/jdJMNtC</string>
+    <string name="module_mine_telegram_link_url">https://t.me/cocosbcxen</string>
+    <string name="module_mine_name_empty">联系人名称不能为空</string>
+    <string name="module_mine_wrong_password">密码不正确</string>
+
+    <string name="mine_nh_asset_id_text">资产ID：</string>
+    <string name="mine_nh_asset_qualifier">通行资产：</string>
+    <string name="mine_nh_asset_world_view">世界观：</string>
+    <string name="delete_text">删除</string>
+    <string name="module_mine_nh_asset_detail_title">资产详情</string>
+    <string name="module_asset_nh_asset_detail_id">NH资产ID</string>
+    <string name="module_mine_nh_asset_creator">创建者：</string>
+    <string name="module_mine_nh_asset_owner">持有者：</string>
+    <string name="module_mine_asset_detail_asset_qualifier">通行资产：</string>
+    <string name="module_mine_asset_detail_world_view">世界观：</string>
+    <string name="module_mine_asset_create_time">创建时间：</string>
+    <string name="module_mine_nh_asset_base_desc">基础数据：</string>
+    <string name="module_mine_nh_asset_detail_transfer_text">转移</string>
+    <string name="module_mine_nh_asset_sale_text">出售</string>
+    <string name="module_mine_nh_sale_title">非同质资产出售</string>
+    <string name="module_mine_nh_sale_next">下一步</string>
+    <string name="module_mine_nh_asset_sale_id">NH资产ID</string>
+    <string name="module_mine_nh_asset_sale_price">价格</string>
+    <string name="choose_other_symbol">选择币种</string>
+    <string name="module_mine_nh_asset_sale_price_default">(默认币种：COCOS)</string>
+    <string name="module_mine_nh_asset_sale_valid_time">有效时间</string>
+    <string name="module_mine_nh_asset_sale_valid_time_hint">请输入挂单有效时间</string>
+    <string name="module_mine_nh_asset_sale_memo">备注</string>
+    <string name="module_mine_nh_asset_sale_memo_hint">请输入挂单备注</string>
+    <string name="module_mine_nh_asset_sale_price_hint">请输入挂单价格</string>
+    <string name="module_mine_nh_asset_sale_valid_time_default">（单位：秒）</string>
+    <string name="module_mine_nh_asset_sale_memo_default">(选填)</string>
+    <string name="module_mine_sale_nh_price_error">挂单价格不能小于0</string>
+    <string name="module_mine_sale_nh_info">出售资产</string>
+    <string name="module_mine_sale_info">交易信息</string>
+    <string name="module_mine_nh_asset_sale_miner_fee">矿工费</string>
+    <string name="module_mine_sale_nh_success">挂单成功</string>
+    <string name="module_mine_coin_select_title">选择币种</string>
+    <string name="module_mine_detele_nh_asset_tip">注意：资产删除后不可恢复</string>
+    <string name="module_asset_deal_info">交易信息</string>
+    <string name="delete_nh_asset_text">删除资产</string>
+    <string name="module_mine_delete_nh_asset_success">删除成功</string>
+    <string name="module_mine_nh_transfer_title">非同质资产转移</string>
+    <string name="module_mine_nh_asset_transfer_receiver_hint">请输入资产接收方</string>
+    <string name="module_mine_nh_asset_transfer_id">NH资产ID</string>
+    <string name="module_mine_nh_asset_transfer_receiver">资产接收方</string>
+    <string name="module_mine_transfer_nh_info">转移资产</string>
+    <string name="module_mine_nh_asset_transfer_from">发送发</string>
+    <string name="module_mine_nh_asset_transfer_to">接收方</string>
+    <string name="module_mine_nh_receiver_can_not_be_empty">资产接收方不能为空</string>
+    <string name="module_mine_transfer_nh_asset_success">转移成功</string>
+    <string name="module_mine_receivable_account_name">转入账号</string>
+    <string name="module_mine_transfer_account_name">转出账号</string>
+    <string name="module_mine_nh_asset_sale_valid_time_less_than_one">请输入合理的有效时间</string>
+    <string name="module_mine_nh_receiver_can_not_be_self">资产接收方不能是自己</string>
+    <string name="module_mine_nh_asset_sale_valid_time_max">最大 </string>
+    <string name="order_manage_text">订单管理</string>
+    <string name="module_mine_reset_password_success">重置成功</string>
+    <string name="module_mine_node_switching">正在切换</string>
+    <string name="module_mine_hint_money">需要支付10%手续费</string>
+
+</resources>
